@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Graphik-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url(assets/Graphik-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Graphik-Semibold";
+    font-style: normal;
+    font-weight: 600;
+    src: url(assets/Graphik-Semibold.ttf);
+}
+
+section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    font-size: 10px;
+    font-family: "Graphik-Regular";
+    justify-content: center;
+    line-height: 15px;
+}
+
+.pageHeader {
+    height: 100px;
+}
+
+.logoImage {
+    width: 70px;
+    height: 20px;
+    mix-blend-mode: multiply;
+}
+
+.joinButton {
+    height: 40px;
+    width: 60px;
+    border-color: transparent;
+    align-self: auto;
+    margin-top: 0px;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(assets/header-background.png);
+    background-color: #e8f8f8;
+    padding-bottom: 20%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: bottom center;
+}
+
+.theIntro {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    font-family: "Graphik-Semibold";
+    margin-bottom: 50px;
+}
+
+.socialNetworks {
+    max-height: 8px;
+    max-width: 8px;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    margin: 0px 5px;
+    background-color: #e8f8f8;
+}
+
+.thePlan {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 25%;
+    height: 150px;
+    width: 250px;
+    line-height: 15px;
+    margin-bottom: 50px;
+}
+
+.nigerianMoney {
+    font-size: 15px;
+}
+
+.blueUnderlinedIdea {
+    align-self: center;
+    color:#00baba;
+    border-color: transparent;
+    text-decoration: underline;
+    width: 125px;
+    margin-bottom: 10px;
+}
+
+.blueUnderlinedName {
+    align-self: center;
+    color:#00baba;
+    border-color: transparent;
+    text-decoration: underline;
+    width: 70px;
+    background-color: #e8f8f8;
+    
+}
+
+.blueUnderlined {
+    align-self: center;
+    color:#00baba;
+    border-color: transparent;
+    text-decoration: underline;
+    width: 82px;
+    background-color: #e8f8f8;
+    
+}
+
+.theIdeas {
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/contacts.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    align-content: center;
+}
+
+.afterChristmas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    height: 150px;
+    width: 250px;
+    text-align: right;
+    margin: 20px 0px;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    align-content: center;
+    background-color: #e8f8f8;
+    margin-top: 50px;
+}
+
+.footerCredits {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Graphik-Semibold;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 25px 0px 0px 0px;
+    opacity: 0.9;
+    font-family: Graphik-Semibold;
+}
+
+button {
+    background-color: #00baba;
+    font-weight: 600;
+    color: white;
+    height: 20px;
+    width: 12%;
+    border: solid transparent;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 8px;
+}
+
+a {
+    color:#00baba;
+    text-decoration: none;
+}
+
+p {
+    opacity: 0.7;
+    width: 100%;
+}
